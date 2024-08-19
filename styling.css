@@ -13,9 +13,8 @@
 body {
 max-width: 87%;
 overflow-x: hidden;
-background: rgba(67,74,95,100%);
+background: rgba(67,74,105,100%);
 color: white;
-font-family: Verdana, sans-serif;
 }
 h1 {
 	position:relative;
@@ -36,9 +35,9 @@ p {
 	left: 0;
 	display: inline;
 	width:100%;
-	background: rgba(67,74,105,95%);
-	border-bottom: 2px solid black;
-	box_shadow: 0 0 4px black;
+	background: rgba(87,94,125,98%);
+	border-bottom: 1px solid black;
+	box-shadow: 0px 1px 5px black;
 	z-index: 1;
 	height: 60px;
 	padding-right: 35px;
@@ -56,7 +55,7 @@ p {
 
 
 .main_subtitle {
-	margin-right: 400px;
+	margin-right: 450px;
 	position: relative;
 	left: 25px;
 	display: inline;
@@ -83,10 +82,12 @@ p {
 .about {
 	margin-top: 65px;
 	margin-left: 250px;
-	padding-bottom: 25px;
 	width: 90%;
 	background: rgba(87,94,125,45%);
-	box-sadow: 1px 1px 26px white;
+	}
+
+.head_buffer {
+	margin-top: 25 px;
 	}
 
 .contact {
@@ -120,10 +121,10 @@ p {
 	z-index: 0.5;
 	top: 0;
 	left: 0;
-	background: rgb(87,94,115);
+	background: rgba(87,94,125,85);
 	overflox-x: hidden;
 	padding-top: __px;
-	border-right: 4px solid black;
+	border-right: 1px solid black;
 	box-shadow: 1px 0px 20px black;
 	}
 
@@ -152,9 +153,8 @@ p {
 	}
 
 .project_body{
-	margin-left: 50px;
-	margin-bottom: 10px;
-	width: 90%;
+	margin-left: 100px;
+	width: 85%;
 	height: 50%;
 	overflow-x: hidden;
 	overflow-y: scroll;
